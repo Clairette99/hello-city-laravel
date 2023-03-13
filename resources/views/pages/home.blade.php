@@ -1,7 +1,7 @@
 @extends('app')
 
 
-@section('title', config('project.variable') )
+@section('title', config('app.name') )
 
 @section('content')
 
