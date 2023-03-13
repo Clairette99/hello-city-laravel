@@ -3,6 +3,8 @@
 
 @section('title', config('app.name') )
 
+<img src="/img/drapeau.jpeg" alt="drapeau quebec">
+
 @section('content')
 
         <h1>Hello from Quebec!</h1>
