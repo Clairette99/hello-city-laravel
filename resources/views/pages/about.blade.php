@@ -1,11 +1,7 @@
 @extends('app')
 
-@section('title')
+@section('title','About Us |' .  config('app.name'))
     
-    About Us | hello city
-
-@endsection
-
 @section('content')
         
         <p>built &hearts; by les teachears du Net.</p>
