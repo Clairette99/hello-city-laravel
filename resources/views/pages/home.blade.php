@@ -3,7 +3,7 @@
 
 @section('title', config('app.name') )
 
-<img src="/img/drapeau.jpeg" alt="drapeau quebec">
+<img src="{{ asset('img/drapeau.jpeg') }}" alt="drapeau quebec">
 
 @section('content')
 
